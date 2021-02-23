@@ -1,0 +1,44 @@
+:root{
+    --bg-color: #000000;
+    --font-color: #ffffff;
+    --display-border: 2px solid white;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+}
+.body-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.textArea{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--display-border);
+    width: 700px;
+    height: 200px;
+}
+.character{
+    width: 200px;
+    height: 200px;
+    background-image: url('./assets/img/Sprite 3.png');
+    background-position: 0;
+}
+.text{
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    padding: 16px;
+    box-sizing: border-box;
+}
