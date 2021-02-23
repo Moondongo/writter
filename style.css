@@ -42,3 +42,28 @@ body{
     padding: 16px;
     box-sizing: border-box;
 }
+
+
+@media screen and (max-width: 767px){
+    body{
+        font-size: 12px;
+    }
+    .container{
+        position: relative;
+        width: 350px;
+        height: 100px;
+    }
+    .character{
+        position: absolute;
+        left: -50px;
+        transform: scale(0.5);
+        background-size: cover;
+    }
+    .text{
+        position: relative;
+        right: -50px;
+        width: 250px;
+        height: 100px;
+        padding: 8px;
+    }
+}
